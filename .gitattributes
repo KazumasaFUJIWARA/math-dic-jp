@@ -1,0 +1,5 @@
+*.tsv text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+# UTF-16LE + CRLF のまま配布するので、改行変換や差分表示をさせない
+dist/windows/*.txt binary
